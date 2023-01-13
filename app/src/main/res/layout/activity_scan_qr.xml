@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_screen"
+    android:orientation="vertical"
+    android:weightSum="12"
+    android:background="@color/primary1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="28dp"
+                android:text="UNOLINGO"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/acme"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:background="@drawable/card_login_home">
+
+
+            <com.budiyev.android.codescanner.CodeScannerView
+                android:id="@+id/scanPreview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:frameCornersRadius="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_marginBottom="46dp">
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginRight="52dp"
+                android:background="@drawable/button_login_background"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:fontFamily="@font/acme"
+                android:textSize="26dp"
+                android:backgroundTint="@color/primary3"
+                android:textColor="@color/white"
+                android:id="@+id/back"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

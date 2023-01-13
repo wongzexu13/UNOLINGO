@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458648637187",
+    "firebase_url": "https://unolingo-235a1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "unolingo-235a1",
+    "storage_bucket": "unolingo-235a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458648637187:android:405096bb8dd87ef42a2336",
+        "android_client_info": {
+          "package_name": "com.example.unilingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458648637187-fdobtltn4rh9tu1mtgebqanuv91hq5dc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unilingo",
+            "certificate_hash": "5fdcc0e2e87750b34053669cb091304ec0499f97"
+          }
+        },
+        {
+          "client_id": "458648637187-vnol41kh0a4fpbrkb64n23aa69is9313.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_huapedLWQO5NinL-NJxZPjbtSC6cx_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458648637187-vnol41kh0a4fpbrkb64n23aa69is9313.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

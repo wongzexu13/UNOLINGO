@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_screen"
+    android:orientation="vertical"
+    android:weightSum="12"
+    android:background="@color/primary1">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="28dp"
+                android:text="UNOLINGO"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/acme"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:background="@drawable/card_login_home">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginRight="68dp"
+            android:fontFamily="@font/acme"
+            android:text="Scoreboard"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="108dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="28dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Friends"
+                android:textAlignment="center"
+                android:fontFamily="@font/acme"
+                android:textSize="24dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Points"
+                android:textAlignment="center"
+                android:fontFamily="@font/acme"
+                android:textSize="22dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="148dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Wong Ze Xu"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="9746"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="John"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="9223"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Yee Ze Hong"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="9188"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Kelvin"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="9053"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Adrian Lim"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="7899"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Clarice Tan"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="5534"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Kim Kim"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="36dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="3376"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="34dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Jonathan Loo"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="3218"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Jessica Wong"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="2774"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Emmy Chan"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="2243"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Alice Sia"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="2119"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Adam Ong"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="1158"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Jessi Kim"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="857"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:orientation="horizontal"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="Jenny Kim"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+                   <TextView
+                       android:layout_width="50dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:text="546"
+                       android:textAlignment="center"
+                       android:fontFamily="@font/acme"
+                       android:textSize="20dp"
+                       android:textColor="@color/black"/>
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+        </ScrollView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginBottom="46dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginRight="52dp"
+                android:background="@drawable/button_login_background"
+                android:text="Back to Home"
+                android:textAllCaps="false"
+                android:fontFamily="@font/acme"
+                android:textSize="26dp"
+                android:backgroundTint="@color/primary3"
+                android:textColor="@color/white"
+                android:id="@+id/home"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
